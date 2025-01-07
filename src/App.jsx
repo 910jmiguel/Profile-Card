@@ -1,11 +1,10 @@
 import React from 'react';
-import Gallery from './components/Gallery';
 
 const App = () => {
   return (
-    <>
-      
-    </>
+    <section>
+      <h1>Miguel Advincula</h1>
+    </section>
   )
 }
 
