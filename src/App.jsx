@@ -1,10 +1,11 @@
 import React from 'react';
+import ProfilePage from './components/ProfilePage';
 
 const App = () => {
   return (
-    <section>
-      <h1>Miguel Advincula</h1>
-    </section>
+    <div className="App">
+      <ProfilePage />
+    </div>
   )
 }
 
