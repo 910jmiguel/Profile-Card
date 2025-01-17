@@ -7,7 +7,7 @@ import ContactCard from './ContactCard'
 
 const ProfilePage = () => {
   return (
-    <div className="text-center">
+    <div className="text-center bg-vs-light shadow-indigo-500/50 shadow-xl rounded-lg px-6 py-20">
         <ProfilePicture />
         <ProfileHeading />
         <AboutSection />

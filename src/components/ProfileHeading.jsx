@@ -3,8 +3,9 @@ import React from 'react'
 const ProfileHeading = () => {
   return (
     <div>
-        <h1 className="text-2xl font-bold text-gray-800 mt-4 text-center">Miguel Advincula</h1>
-        <p className="text-gray-600 text-center">Computer Science Student @ York University</p>
+        <h1 className="text-3xl pt-5 font-bold text-gray-200 text-center">Miguel Advincula</h1>
+        <p className="text-lg text-gray-400 text-center">Computer Science Student @ York University,</p>
+        <p className="text-lg text-gray-400 text-center">Lassonde School of Engineering</p>
     </div>
   )
 }

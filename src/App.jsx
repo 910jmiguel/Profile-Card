@@ -3,7 +3,7 @@ import ProfilePage from './components/ProfilePage';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="flex items-center h-screen w-full justify-center bg-vs-dark">
       <ProfilePage />
     </div>
   )
