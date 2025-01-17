@@ -24,8 +24,8 @@ const SocialLinks = () => {
     </div>
     */
    <div>
-    <a href="https://linkedin.com/in/910jmiguel" target="_blank" rel="noopener noreferrer">LinkedIn </a>
-    <a href="https://github.com/910jmiguel" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a className="text-white" href="https://linkedin.com/in/910jmiguel" target="_blank" rel="noopener noreferrer">LinkedIn |</a>
+    <a className="text-white" href="https://github.com/910jmiguel" target="_blank" rel="noopener noreferrer"> GitHub</a>
    </div>
   )
 }
