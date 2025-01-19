@@ -1,32 +1,25 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const SocialLinks = () => {
 
-    const socialLinks = [
-        { url: "https://linkedin.com/in/910jmiguel", iconClass: "fa-brands fa-linkedin" },
-        { url: "https://github.com/910jmiguel", iconClass: "fa-brands fa-github" },
-    ];
-
   return (
-    /*
-    <div>
-        
-        {socialLinks.map((link, index) => (
-            <a
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={link.iconClass}
-            ></a>
-        ))};
-        
-    </div>
-    */
-   <div>
-    <a className="text-white" href="https://linkedin.com/in/910jmiguel" target="_blank" rel="noopener noreferrer">LinkedIn |</a>
-    <a className="text-white" href="https://github.com/910jmiguel" target="_blank" rel="noopener noreferrer"> GitHub</a>
-   </div>
+  <div>
+    <h1 className="text-lg text-white font-bold">Connect with me!</h1>
+
+    <a href="https://linkedin.com/in/910jmiguel" target="_blank" rel="noopener noreferrer" className="text-white text-4xl pr-5">
+    <FontAwesomeIcon icon={faLinkedin} />
+    </a>
+
+    <a href="https://github.com/910jmiguel" target="_blank" rel="noopener noreferrer" className="text-white text-4xl pr-5">
+    <FontAwesomeIcon icon={faGithub} />
+    </a>
+
+    <a href="https://github.com/910jmiguel" target="_blank" rel="noopener noreferrer" className="text-white text-4xl">
+    <FontAwesomeIcon icon={faInstagram} />
+    </a>
+  </div>
   )
 }
 
