@@ -14,3 +14,4 @@ A basic mini portfolio page. This project is still in the works and I plan on ma
 ## Technologies Used
 * React.js
 * TailwindCSS
+* FontsAwesome API (for icons)
