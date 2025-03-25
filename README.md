@@ -1,8 +1,17 @@
-# React + Vite
+# 💁‍♂️ Miguel's Profile Card
+A basic mini portfolio page. This project is still in the works and I plan on making a whole separate portfolio page soon :)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ⚙️ Features
+* Mini description of myself
+* Links to social media
+* Unique designs
 
-Currently, two official plugins are available:
+## ‼️ Adding-on Soon
+* Brief tech stacks
+* Button that leads to my resume
+* Updated profile picture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📱 Technologies Used
+* React.js
+* TailwindCSS
+* FontsAwesome API (for icons)

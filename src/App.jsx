@@ -1,11 +1,11 @@
 import React from 'react';
+import ProfilePage from './components/ProfilePage';
 
 const App = () => {
   return (
-    <section>
-      <h1>Miguel Advincula</h1>
-      <p>test</p>
-    </section>
+    <div className="flex items-center h-screen w-full justify-center bg-vs-dark">
+      <ProfilePage />
+    </div>
   )
 }
 
